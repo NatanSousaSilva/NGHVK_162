@@ -1,4 +1,0 @@
-Invoking command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12
-Invoked command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12
-Invoking command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/Documents/NGHVK/ros2_ws/build/listening_control
-Invoked command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/Documents/NGHVK/ros2_ws/build/listening_control
