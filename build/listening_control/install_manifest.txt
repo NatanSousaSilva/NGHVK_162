@@ -1,0 +1,16 @@
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/lib/listening_control/llm_ia_node
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/package_run_dependencies/listening_control
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/parent_prefix_path/listening_control
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.sh
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.dsv
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.sh
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.dsv
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.bash
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.sh
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.zsh
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.dsv
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.dsv
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/packages/listening_control
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig.cmake
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig-version.cmake
+/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.xml

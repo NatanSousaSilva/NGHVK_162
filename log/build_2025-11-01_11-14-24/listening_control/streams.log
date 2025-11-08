@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12
+[0.047s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.234s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.260s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.268s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.279s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.352s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.353s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.490s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.529s] -- Found nlohmann_json: /usr/share/cmake/nlohmann_json/nlohmann_jsonConfig.cmake (found version "3.11.3") 
+[0.605s] -- Configuring done (0.6s)
+[0.618s] -- Generating done (0.0s)
+[0.620s] -- Build files have been written to: /home/natan/Documents/NGHVK/ros2_ws/build/listening_control
+[0.684s] [ 50%] [32mBuilding CXX object CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o[0m
+[5.106s] [100%] [32m[1mLinking CXX executable llm_ia_node[0m
+[5.323s] [100%] Built target llm_ia_node
+[5.333s] Invoked command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12
+[5.342s] Invoking command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/Documents/NGHVK/ros2_ws/build/listening_control
+[5.348s] -- Install configuration: ""
+[5.349s] -- Installing: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/lib/listening_control/llm_ia_node
+[5.350s] -- Set non-toolchain portion of runtime path of "/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/lib/listening_control/llm_ia_node" to ""
+[5.350s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/package_run_dependencies/listening_control
+[5.350s] -- Installing: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/parent_prefix_path/listening_control
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.sh
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.dsv
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.sh
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.dsv
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.bash
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.sh
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.zsh
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.dsv
+[5.351s] -- Installing: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.dsv
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/packages/listening_control
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig.cmake
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig-version.cmake
+[5.351s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.xml
+[5.352s] Invoked command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/Documents/NGHVK/ros2_ws/build/listening_control

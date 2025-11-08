@@ -1,0 +1,2 @@
+Invoking command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12
+Invoked command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control' returned '2': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12

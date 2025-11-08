@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o[0m
+[7.501s] [100%] [32m[1mLinking CXX executable llm_ia_node[0m
+[7.823s] [100%] Built target llm_ia_node
+[7.840s] Invoked command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/Documents/NGHVK/ros2_ws/build/listening_control -- -j12 -l12
+[7.855s] Invoking command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/Documents/NGHVK/ros2_ws/build/listening_control
+[7.867s] -- Install configuration: ""
+[7.867s] -- Installing: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/lib/listening_control/llm_ia_node
+[7.871s] -- Set non-toolchain portion of runtime path of "/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/lib/listening_control/llm_ia_node" to ""
+[7.871s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/package_run_dependencies/listening_control
+[7.871s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/parent_prefix_path/listening_control
+[7.871s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.sh
+[7.871s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.dsv
+[7.872s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.sh
+[7.872s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.dsv
+[7.872s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.bash
+[7.872s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.sh
+[7.872s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.zsh
+[7.872s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.dsv
+[7.872s] -- Installing: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.dsv
+[7.872s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/packages/listening_control
+[7.873s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig.cmake
+[7.873s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig-version.cmake
+[7.873s] -- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.xml
+[7.874s] Invoked command in '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/Documents/NGHVK/ros2_ws/build/listening_control

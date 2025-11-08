@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000586] (listening_control) JobQueued: {'identifier': 'listening_control', 'dependencies': OrderedDict()}
+[0.000649] (listening_control) JobStarted: {'identifier': 'listening_control'}
+[0.007954] (listening_control) JobProgress: {'identifier': 'listening_control', 'progress': 'cmake'}
+[0.011314] (listening_control) JobProgress: {'identifier': 'listening_control', 'progress': 'build'}
+[0.011661] (listening_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control', '--', '-j12', '-l12'], 'cwd': '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'natan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/natan', 'OLDPWD': '/home/natan/Documents/NGHVK/ros2_ws/src/listening_control/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2564', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/natan/Documents/NGHVK/ros2_ws/src/listening_control/src/install', 'LOGNAME': 'natan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/natan-750XGK:@/tmp/.ICE-unix/2264,unix/natan-750XGK:/tmp/.ICE-unix/2264', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d8894917_5f7c_4423_a1fe_27edc9f1f93a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4TPJF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.335', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[0.099242] (listening_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o\x1b[0m\n'}
+[0.099692] (-) TimerEvent: {}
+[0.200116] (-) TimerEvent: {}
+[0.300692] (-) TimerEvent: {}
+[0.401218] (-) TimerEvent: {}
+[0.501680] (-) TimerEvent: {}
+[0.602194] (-) TimerEvent: {}
+[0.702563] (-) TimerEvent: {}
+[0.802998] (-) TimerEvent: {}
+[0.903466] (-) TimerEvent: {}
+[1.003918] (-) TimerEvent: {}
+[1.104378] (-) TimerEvent: {}
+[1.204842] (-) TimerEvent: {}
+[1.305325] (-) TimerEvent: {}
+[1.405813] (-) TimerEvent: {}
+[1.506279] (-) TimerEvent: {}
+[1.606677] (-) TimerEvent: {}
+[1.707137] (-) TimerEvent: {}
+[1.807529] (-) TimerEvent: {}
+[1.908010] (-) TimerEvent: {}
+[2.008520] (-) TimerEvent: {}
+[2.109011] (-) TimerEvent: {}
+[2.209447] (-) TimerEvent: {}
+[2.309973] (-) TimerEvent: {}
+[2.410722] (-) TimerEvent: {}
+[2.511198] (-) TimerEvent: {}
+[2.611663] (-) TimerEvent: {}
+[2.712245] (-) TimerEvent: {}
+[2.812769] (-) TimerEvent: {}
+[2.913366] (-) TimerEvent: {}
+[3.013905] (-) TimerEvent: {}
+[3.114459] (-) TimerEvent: {}
+[3.214992] (-) TimerEvent: {}
+[3.315541] (-) TimerEvent: {}
+[3.416100] (-) TimerEvent: {}
+[3.516689] (-) TimerEvent: {}
+[3.617145] (-) TimerEvent: {}
+[3.717716] (-) TimerEvent: {}
+[3.818211] (-) TimerEvent: {}
+[3.918707] (-) TimerEvent: {}
+[4.019301] (-) TimerEvent: {}
+[4.119751] (-) TimerEvent: {}
+[4.220288] (-) TimerEvent: {}
+[4.320843] (-) TimerEvent: {}
+[4.421407] (-) TimerEvent: {}
+[4.521846] (-) TimerEvent: {}
+[4.622383] (-) TimerEvent: {}
+[4.722972] (-) TimerEvent: {}
+[4.823541] (-) TimerEvent: {}
+[4.924093] (-) TimerEvent: {}
+[5.024842] (-) TimerEvent: {}
+[5.125333] (-) TimerEvent: {}
+[5.225843] (-) TimerEvent: {}
+[5.326321] (-) TimerEvent: {}
+[5.426706] (-) TimerEvent: {}
+[5.527131] (-) TimerEvent: {}
+[5.627583] (-) TimerEvent: {}
+[5.728020] (-) TimerEvent: {}
+[5.828395] (-) TimerEvent: {}
+[5.928842] (-) TimerEvent: {}
+[6.029274] (-) TimerEvent: {}
+[6.129710] (-) TimerEvent: {}
+[6.230142] (-) TimerEvent: {}
+[6.330605] (-) TimerEvent: {}
+[6.431034] (-) TimerEvent: {}
+[6.531482] (-) TimerEvent: {}
+[6.631921] (-) TimerEvent: {}
+[6.732343] (-) TimerEvent: {}
+[6.832780] (-) TimerEvent: {}
+[6.933244] (-) TimerEvent: {}
+[7.033682] (-) TimerEvent: {}
+[7.134123] (-) TimerEvent: {}
+[7.234501] (-) TimerEvent: {}
+[7.334920] (-) TimerEvent: {}
+[7.435357] (-) TimerEvent: {}
+[7.501761] (listening_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable llm_ia_node\x1b[0m\n'}
+[7.535496] (-) TimerEvent: {}
+[7.635968] (-) TimerEvent: {}
+[7.736365] (-) TimerEvent: {}
+[7.823297] (listening_control) StdoutLine: {'line': b'[100%] Built target llm_ia_node\n'}
+[7.836552] (-) TimerEvent: {}
+[7.840451] (listening_control) CommandEnded: {'returncode': 0}
+[7.841488] (listening_control) JobProgress: {'identifier': 'listening_control', 'progress': 'install'}
+[7.855271] (listening_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control'], 'cwd': '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'natan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/natan', 'OLDPWD': '/home/natan/Documents/NGHVK/ros2_ws/src/listening_control/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2564', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/natan/Documents/NGHVK/ros2_ws/src/listening_control/src/install', 'LOGNAME': 'natan', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/natan-750XGK:@/tmp/.ICE-unix/2264,unix/natan-750XGK:/tmp/.ICE-unix/2264', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d8894917_5f7c_4423_a1fe_27edc9f1f93a', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.4TPJF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.335', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natan/Documents/NGHVK/ros2_ws/build/listening_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600'}), 'shell': False}
+[7.867724] (listening_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.868056] (listening_control) StdoutLine: {'line': b'-- Installing: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/lib/listening_control/llm_ia_node\n'}
+[7.870931] (listening_control) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natan/Documents/NGHVK/ros2_ws/install/listening_control/lib/listening_control/llm_ia_node" to ""\n'}
+[7.871249] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/package_run_dependencies/listening_control\n'}
+[7.871562] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/parent_prefix_path/listening_control\n'}
+[7.871724] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.sh\n'}
+[7.871931] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/ament_prefix_path.dsv\n'}
+[7.872072] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.sh\n'}
+[7.872225] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/environment/path.dsv\n'}
+[7.872365] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.bash\n'}
+[7.872499] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.sh\n'}
+[7.872633] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.zsh\n'}
+[7.872767] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/local_setup.dsv\n'}
+[7.872900] (listening_control) StdoutLine: {'line': b'-- Installing: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.dsv\n'}
+[7.873034] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/ament_index/resource_index/packages/listening_control\n'}
+[7.873177] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig.cmake\n'}
+[7.873318] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/cmake/listening_controlConfig-version.cmake\n'}
+[7.873455] (listening_control) StdoutLine: {'line': b'-- Up-to-date: /home/natan/Documents/NGHVK/ros2_ws/install/listening_control/share/listening_control/package.xml\n'}
+[7.874612] (listening_control) CommandEnded: {'returncode': 0}
+[7.895884] (listening_control) JobEnded: {'identifier': 'listening_control', 'rc': 0}
+[7.896551] (-) EventReactorShutdown: {}

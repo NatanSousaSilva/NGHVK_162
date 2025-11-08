@@ -1,0 +1,12 @@
+# Ignorar pastas de build do ROS 2
+build/
+install/
+log/
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+
+# Ignorar configurações de editor
+.vscode/
+.idea/
