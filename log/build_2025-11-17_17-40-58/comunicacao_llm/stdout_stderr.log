@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o[0m
+[01m[K/home/natan/ros2_ws/src/comunicacao_llm/src/llm_ia_node.cpp:[m[K In member function ‘[01m[Kvoid Gemini_Node::[01;32m[Kquery_gemini[m[K(const std::string&)[m[K’:
+[01m[K/home/natan/ros2_ws/src/comunicacao_llm/src/llm_ia_node.cpp:54:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbody_json[m[K’
+   54 |         json body_json = json [01;31m[Kbody_json[m[K = {
+      |                               [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/llm_ia_node.dir/build.make:76: CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/llm_ia_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

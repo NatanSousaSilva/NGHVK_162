@@ -1,0 +1,25 @@
+[0.010s] Invoking command in '/home/natan/ros2_ws/build/comunicacao_llm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/ros2_ws/build/comunicacao_llm -- -j12 -l12
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o[0m
+[6.210s] [100%] [32m[1mLinking CXX executable llm_ia_node[0m
+[6.479s] [100%] Built target llm_ia_node
+[6.487s] Invoked command in '/home/natan/ros2_ws/build/comunicacao_llm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/ros2_ws/build/comunicacao_llm -- -j12 -l12
+[6.495s] Invoking command in '/home/natan/ros2_ws/build/comunicacao_llm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/ros2_ws/build/comunicacao_llm
+[6.504s] -- Install configuration: ""
+[6.504s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/lib/comunicacao_llm/llm_ia_node
+[6.508s] -- Set non-toolchain portion of runtime path of "/home/natan/ros2_ws/install/comunicacao_llm/lib/comunicacao_llm/llm_ia_node" to ""
+[6.508s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/ament_index/resource_index/package_run_dependencies/comunicacao_llm
+[6.508s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/ament_index/resource_index/parent_prefix_path/comunicacao_llm
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/ament_prefix_path.sh
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/ament_prefix_path.dsv
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/path.sh
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/path.dsv
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.bash
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.sh
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.zsh
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.dsv
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/package.dsv
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/ament_index/resource_index/packages/comunicacao_llm
+[6.509s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/cmake/comunicacao_llmConfig.cmake
+[6.510s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/cmake/comunicacao_llmConfig-version.cmake
+[6.510s] -- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/package.xml
+[6.511s] Invoked command in '/home/natan/ros2_ws/build/comunicacao_llm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/natan/ros2_ws/build/comunicacao_llm

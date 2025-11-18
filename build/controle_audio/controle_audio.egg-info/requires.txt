@@ -1,0 +1,6 @@
+setuptools
+sounddevice
+vosk
+
+[test]
+pytest

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+build/controle_audio/controle_audio.egg-info/PKG-INFO
+build/controle_audio/controle_audio.egg-info/SOURCES.txt
+build/controle_audio/controle_audio.egg-info/dependency_links.txt
+build/controle_audio/controle_audio.egg-info/entry_points.txt
+build/controle_audio/controle_audio.egg-info/requires.txt
+build/controle_audio/controle_audio.egg-info/top_level.txt
+build/controle_audio/controle_audio.egg-info/zip-safe
+controle_audio/__init__.py
+controle_audio/listening_control.py
+resource/controle_audio
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

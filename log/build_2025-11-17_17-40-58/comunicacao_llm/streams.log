@@ -1,0 +1,10 @@
+[0.026s] Invoking command in '/home/natan/ros2_ws/build/comunicacao_llm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/ros2_ws/build/comunicacao_llm -- -j12 -l12
+[0.132s] [ 50%] [32mBuilding CXX object CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o[0m
+[2.985s] [01m[K/home/natan/ros2_ws/src/comunicacao_llm/src/llm_ia_node.cpp:[m[K In member function ‘[01m[Kvoid Gemini_Node::[01;32m[Kquery_gemini[m[K(const std::string&)[m[K’:
+[2.985s] [01m[K/home/natan/ros2_ws/src/comunicacao_llm/src/llm_ia_node.cpp:54:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kbody_json[m[K’
+[2.985s]    54 |         json body_json = json [01;31m[Kbody_json[m[K = {
+[2.985s]       |                               [01;31m[K^~~~~~~~~[m[K
+[6.027s] gmake[2]: *** [CMakeFiles/llm_ia_node.dir/build.make:76: CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o] Error 1
+[6.027s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/llm_ia_node.dir/all] Error 2
+[6.028s] gmake: *** [Makefile:146: all] Error 2
+[6.032s] Invoked command in '/home/natan/ros2_ws/build/comunicacao_llm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/natan/ros2_ws/build/comunicacao_llm -- -j12 -l12

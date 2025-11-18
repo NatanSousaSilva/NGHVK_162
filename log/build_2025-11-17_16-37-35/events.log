@@ -1,0 +1,173 @@
+[0.000000] (-) TimerEvent: {}
+[0.000170] (comunicacao_llm) JobQueued: {'identifier': 'comunicacao_llm', 'dependencies': OrderedDict()}
+[0.000212] (controle_audio) JobQueued: {'identifier': 'controle_audio', 'dependencies': OrderedDict()}
+[0.000240] (comunicacao_llm) JobStarted: {'identifier': 'comunicacao_llm'}
+[0.008594] (controle_audio) JobStarted: {'identifier': 'controle_audio'}
+[0.015330] (comunicacao_llm) JobProgress: {'identifier': 'comunicacao_llm', 'progress': 'cmake'}
+[0.016707] (comunicacao_llm) JobProgress: {'identifier': 'comunicacao_llm', 'progress': 'build'}
+[0.016811] (comunicacao_llm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/natan/ros2_ws/build/comunicacao_llm', '--', '-j12', '-l12'], 'cwd': '/home/natan/ros2_ws/build/comunicacao_llm', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'natan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/natan', 'OLDPWD': '/home/natan/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2472', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/natan/ros2_ws/install:/home/natan/Documents/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'natan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/natan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/natan/.local/bin:/home/natan/.local/bin:/home/natan/.local/bin', 'SESSION_MANAGER': 'local/natan-750XGK:@/tmp/.ICE-unix/2281,unix/natan-750XGK:/tmp/.ICE-unix/2281', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/57aa2d91_4e88_47bb_b24f_e1413ed4b071', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7O7QF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/natan/ros2_ws/install/controle_audio:/home/natan/ros2_ws/install/comunicacao_llm:/home/natan/Documents/ros2_ws/install/listening_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natan/ros2_ws/build/comunicacao_llm', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/natan/ros2_ws/install/comunicacao_llm:/home/natan/Documents/ros2_ws/install/listening_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy'}), 'shell': False}
+[0.099128] (-) TimerEvent: {}
+[0.119256] (comunicacao_llm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/llm_ia_node.dir/src/llm_ia_node.cpp.o\x1b[0m\n'}
+[0.199315] (-) TimerEvent: {}
+[0.299887] (-) TimerEvent: {}
+[0.400334] (-) TimerEvent: {}
+[0.500855] (-) TimerEvent: {}
+[0.601378] (-) TimerEvent: {}
+[0.701888] (-) TimerEvent: {}
+[0.802425] (-) TimerEvent: {}
+[0.902941] (-) TimerEvent: {}
+[0.966387] (controle_audio) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controle_audio', 'build', '--build-base', '/home/natan/ros2_ws/build/controle_audio/build', 'install', '--record', '/home/natan/ros2_ws/build/controle_audio/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/natan/ros2_ws/src/controle_audio', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'natan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/natan', 'OLDPWD': '/home/natan/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2472', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/natan/ros2_ws/install:/home/natan/Documents/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'natan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/natan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/natan/.local/bin:/home/natan/.local/bin:/home/natan/.local/bin', 'SESSION_MANAGER': 'local/natan-750XGK:@/tmp/.ICE-unix/2281,unix/natan-750XGK:/tmp/.ICE-unix/2281', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/57aa2d91_4e88_47bb_b24f_e1413ed4b071', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7O7QF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/natan/ros2_ws/install/controle_audio:/home/natan/ros2_ws/install/comunicacao_llm:/home/natan/Documents/ros2_ws/install/listening_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natan/ros2_ws/build/controle_audio', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/natan/ros2_ws/build/controle_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages:/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/natan/ros2_ws/install/comunicacao_llm:/home/natan/Documents/ros2_ws/install/listening_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.003073] (-) TimerEvent: {}
+[1.103596] (-) TimerEvent: {}
+[1.204071] (-) TimerEvent: {}
+[1.272057] (controle_audio) StdoutLine: {'line': b'running egg_info\n'}
+[1.291664] (controle_audio) StdoutLine: {'line': b'writing ../../build/controle_audio/controle_audio.egg-info/PKG-INFO\n'}
+[1.292241] (controle_audio) StdoutLine: {'line': b'writing dependency_links to ../../build/controle_audio/controle_audio.egg-info/dependency_links.txt\n'}
+[1.292419] (controle_audio) StdoutLine: {'line': b'writing entry points to ../../build/controle_audio/controle_audio.egg-info/entry_points.txt\n'}
+[1.292549] (controle_audio) StdoutLine: {'line': b'writing requirements to ../../build/controle_audio/controle_audio.egg-info/requires.txt\n'}
+[1.292674] (controle_audio) StdoutLine: {'line': b'writing top-level names to ../../build/controle_audio/controle_audio.egg-info/top_level.txt\n'}
+[1.304306] (-) TimerEvent: {}
+[1.333698] (controle_audio) StdoutLine: {'line': b"reading manifest file '../../build/controle_audio/controle_audio.egg-info/SOURCES.txt'\n"}
+[1.334635] (controle_audio) StdoutLine: {'line': b"writing manifest file '../../build/controle_audio/controle_audio.egg-info/SOURCES.txt'\n"}
+[1.334960] (controle_audio) StdoutLine: {'line': b'running build\n'}
+[1.335111] (controle_audio) StdoutLine: {'line': b'running build_py\n'}
+[1.335454] (controle_audio) StdoutLine: {'line': b'running install\n'}
+[1.342806] (controle_audio) StdoutLine: {'line': b'running install_lib\n'}
+[1.363732] (controle_audio) StdoutLine: {'line': b'running install_data\n'}
+[1.364066] (controle_audio) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.385962] (controle_audio) StdoutLine: {'line': b"removing '/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages/controle_audio-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.386545] (controle_audio) StdoutLine: {'line': b'Copying ../../build/controle_audio/controle_audio.egg-info to /home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages/controle_audio-0.0.0-py3.12.egg-info\n'}
+[1.386892] (controle_audio) StdoutLine: {'line': b'running install_scripts\n'}
+[1.404551] (-) TimerEvent: {}
+[1.505066] (-) TimerEvent: {}
+[1.528046] (controle_audio) StdoutLine: {'line': b'Installing listening_control script to /home/natan/ros2_ws/install/controle_audio/lib/controle_audio\n'}
+[1.528523] (controle_audio) StdoutLine: {'line': b"writing list of installed files to '/home/natan/ros2_ws/build/controle_audio/install.log'\n"}
+[1.566293] (controle_audio) CommandEnded: {'returncode': 0}
+[1.584508] (controle_audio) JobEnded: {'identifier': 'controle_audio', 'rc': 0}
+[1.605220] (-) TimerEvent: {}
+[1.705771] (-) TimerEvent: {}
+[1.806356] (-) TimerEvent: {}
+[1.906886] (-) TimerEvent: {}
+[2.007327] (-) TimerEvent: {}
+[2.107881] (-) TimerEvent: {}
+[2.208568] (-) TimerEvent: {}
+[2.309043] (-) TimerEvent: {}
+[2.409537] (-) TimerEvent: {}
+[2.509997] (-) TimerEvent: {}
+[2.610464] (-) TimerEvent: {}
+[2.710965] (-) TimerEvent: {}
+[2.811528] (-) TimerEvent: {}
+[2.912055] (-) TimerEvent: {}
+[3.012576] (-) TimerEvent: {}
+[3.113008] (-) TimerEvent: {}
+[3.213558] (-) TimerEvent: {}
+[3.314115] (-) TimerEvent: {}
+[3.414634] (-) TimerEvent: {}
+[3.515197] (-) TimerEvent: {}
+[3.615763] (-) TimerEvent: {}
+[3.716554] (-) TimerEvent: {}
+[3.817006] (-) TimerEvent: {}
+[3.917549] (-) TimerEvent: {}
+[4.018093] (-) TimerEvent: {}
+[4.118620] (-) TimerEvent: {}
+[4.219181] (-) TimerEvent: {}
+[4.319736] (-) TimerEvent: {}
+[4.420451] (-) TimerEvent: {}
+[4.520911] (-) TimerEvent: {}
+[4.621377] (-) TimerEvent: {}
+[4.721894] (-) TimerEvent: {}
+[4.822484] (-) TimerEvent: {}
+[4.922977] (-) TimerEvent: {}
+[5.023513] (-) TimerEvent: {}
+[5.124035] (-) TimerEvent: {}
+[5.224559] (-) TimerEvent: {}
+[5.325104] (-) TimerEvent: {}
+[5.425664] (-) TimerEvent: {}
+[5.526384] (-) TimerEvent: {}
+[5.626858] (-) TimerEvent: {}
+[5.727311] (-) TimerEvent: {}
+[5.827793] (-) TimerEvent: {}
+[5.928256] (-) TimerEvent: {}
+[6.028647] (-) TimerEvent: {}
+[6.129012] (-) TimerEvent: {}
+[6.229458] (-) TimerEvent: {}
+[6.329916] (-) TimerEvent: {}
+[6.430281] (-) TimerEvent: {}
+[6.530752] (-) TimerEvent: {}
+[6.631222] (-) TimerEvent: {}
+[6.731831] (-) TimerEvent: {}
+[6.832502] (-) TimerEvent: {}
+[6.932944] (-) TimerEvent: {}
+[7.033408] (-) TimerEvent: {}
+[7.133927] (-) TimerEvent: {}
+[7.234434] (-) TimerEvent: {}
+[7.334924] (-) TimerEvent: {}
+[7.435347] (-) TimerEvent: {}
+[7.535856] (-) TimerEvent: {}
+[7.636511] (-) TimerEvent: {}
+[7.736950] (-) TimerEvent: {}
+[7.837426] (-) TimerEvent: {}
+[7.937953] (-) TimerEvent: {}
+[8.038463] (-) TimerEvent: {}
+[8.138962] (-) TimerEvent: {}
+[8.239494] (-) TimerEvent: {}
+[8.339981] (-) TimerEvent: {}
+[8.440503] (-) TimerEvent: {}
+[8.540988] (-) TimerEvent: {}
+[8.641481] (-) TimerEvent: {}
+[8.741968] (-) TimerEvent: {}
+[8.842377] (-) TimerEvent: {}
+[8.942900] (-) TimerEvent: {}
+[9.043398] (-) TimerEvent: {}
+[9.143892] (-) TimerEvent: {}
+[9.244400] (-) TimerEvent: {}
+[9.344902] (-) TimerEvent: {}
+[9.445424] (-) TimerEvent: {}
+[9.545806] (-) TimerEvent: {}
+[9.646924] (-) TimerEvent: {}
+[9.747320] (-) TimerEvent: {}
+[9.847841] (-) TimerEvent: {}
+[9.948370] (-) TimerEvent: {}
+[10.048897] (-) TimerEvent: {}
+[10.149395] (-) TimerEvent: {}
+[10.249881] (-) TimerEvent: {}
+[10.350297] (-) TimerEvent: {}
+[10.450739] (-) TimerEvent: {}
+[10.551221] (-) TimerEvent: {}
+[10.651737] (-) TimerEvent: {}
+[10.752251] (-) TimerEvent: {}
+[10.852762] (-) TimerEvent: {}
+[10.953316] (-) TimerEvent: {}
+[11.053866] (-) TimerEvent: {}
+[11.131207] (comunicacao_llm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable llm_ia_node\x1b[0m\n'}
+[11.154067] (-) TimerEvent: {}
+[11.254594] (-) TimerEvent: {}
+[11.355127] (-) TimerEvent: {}
+[11.455671] (-) TimerEvent: {}
+[11.556492] (-) TimerEvent: {}
+[11.572825] (comunicacao_llm) StdoutLine: {'line': b'[100%] Built target llm_ia_node\n'}
+[11.596404] (comunicacao_llm) CommandEnded: {'returncode': 0}
+[11.597528] (comunicacao_llm) JobProgress: {'identifier': 'comunicacao_llm', 'progress': 'install'}
+[11.615061] (comunicacao_llm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/natan/ros2_ws/build/comunicacao_llm'], 'cwd': '/home/natan/ros2_ws/build/comunicacao_llm', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'natan', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/natan', 'OLDPWD': '/home/natan/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2472', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/natan/ros2_ws/install:/home/natan/Documents/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'natan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'natan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/home/natan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/natan/.local/bin:/home/natan/.local/bin:/home/natan/.local/bin', 'SESSION_MANAGER': 'local/natan-750XGK:@/tmp/.ICE-unix/2281,unix/natan-750XGK:/tmp/.ICE-unix/2281', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/57aa2d91_4e88_47bb_b24f_e1413ed4b071', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7O7QF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.125', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/natan/ros2_ws/install/controle_audio:/home/natan/ros2_ws/install/comunicacao_llm:/home/natan/Documents/ros2_ws/install/listening_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/natan/ros2_ws/build/comunicacao_llm', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/natan/ros2_ws/install/comunicacao_llm:/home/natan/Documents/ros2_ws/install/listening_control:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/natan/ros2_ws/install/controle_audio:/opt/ros/jazzy'}), 'shell': False}
+[11.627136] (comunicacao_llm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.627458] (comunicacao_llm) StdoutLine: {'line': b'-- Installing: /home/natan/ros2_ws/install/comunicacao_llm/lib/comunicacao_llm/llm_ia_node\n'}
+[11.633460] (comunicacao_llm) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/natan/ros2_ws/install/comunicacao_llm/lib/comunicacao_llm/llm_ia_node" to ""\n'}
+[11.633661] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/ament_index/resource_index/package_run_dependencies/comunicacao_llm\n'}
+[11.633756] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/ament_index/resource_index/parent_prefix_path/comunicacao_llm\n'}
+[11.633868] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/ament_prefix_path.sh\n'}
+[11.633949] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/ament_prefix_path.dsv\n'}
+[11.634025] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/path.sh\n'}
+[11.634106] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/environment/path.dsv\n'}
+[11.634450] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.bash\n'}
+[11.634547] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.sh\n'}
+[11.634626] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.zsh\n'}
+[11.634700] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/local_setup.dsv\n'}
+[11.634774] (comunicacao_llm) StdoutLine: {'line': b'-- Installing: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/package.dsv\n'}
+[11.634880] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/ament_index/resource_index/packages/comunicacao_llm\n'}
+[11.634957] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/cmake/comunicacao_llmConfig.cmake\n'}
+[11.635027] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/cmake/comunicacao_llmConfig-version.cmake\n'}
+[11.635096] (comunicacao_llm) StdoutLine: {'line': b'-- Up-to-date: /home/natan/ros2_ws/install/comunicacao_llm/share/comunicacao_llm/package.xml\n'}
+[11.636972] (comunicacao_llm) CommandEnded: {'returncode': 0}
+[11.655449] (comunicacao_llm) JobEnded: {'identifier': 'comunicacao_llm', 'rc': 0}
+[11.656614] (-) TimerEvent: {}
+[11.656777] (-) EventReactorShutdown: {}

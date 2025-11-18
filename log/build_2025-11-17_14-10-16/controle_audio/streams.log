@@ -1,0 +1,21 @@
+[0.536s] Invoking command in '/home/natan/ros2_ws/src/controle_audio': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/natan/ros2_ws/build/controle_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controle_audio build --build-base /home/natan/ros2_ws/build/controle_audio/build install --record /home/natan/ros2_ws/build/controle_audio/install.log --single-version-externally-managed install_data
+[0.708s] running egg_info
+[0.719s] writing ../../build/controle_audio/controle_audio.egg-info/PKG-INFO
+[0.719s] writing dependency_links to ../../build/controle_audio/controle_audio.egg-info/dependency_links.txt
+[0.719s] writing entry points to ../../build/controle_audio/controle_audio.egg-info/entry_points.txt
+[0.719s] writing requirements to ../../build/controle_audio/controle_audio.egg-info/requires.txt
+[0.719s] writing top-level names to ../../build/controle_audio/controle_audio.egg-info/top_level.txt
+[0.742s] reading manifest file '../../build/controle_audio/controle_audio.egg-info/SOURCES.txt'
+[0.742s] writing manifest file '../../build/controle_audio/controle_audio.egg-info/SOURCES.txt'
+[0.743s] running build
+[0.743s] running build_py
+[0.743s] running install
+[0.747s] running install_lib
+[0.758s] running install_data
+[0.758s] running install_egg_info
+[0.770s] removing '/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages/controle_audio-0.0.0-py3.12.egg-info' (and everything under it)
+[0.770s] Copying ../../build/controle_audio/controle_audio.egg-info to /home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages/controle_audio-0.0.0-py3.12.egg-info
+[0.771s] running install_scripts
+[0.849s] Installing listening_control script to /home/natan/ros2_ws/install/controle_audio/lib/controle_audio
+[0.850s] writing list of installed files to '/home/natan/ros2_ws/build/controle_audio/install.log'
+[0.870s] Invoked command in '/home/natan/ros2_ws/src/controle_audio' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/natan/ros2_ws/build/controle_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natan/ros2_ws/install/controle_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controle_audio build --build-base /home/natan/ros2_ws/build/controle_audio/build install --record /home/natan/ros2_ws/build/controle_audio/install.log --single-version-externally-managed install_data

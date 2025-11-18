@@ -1,0 +1,37 @@
+[0.530s] Invoking command in '/home/natan/ros2_ws/src/controle_audio': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natan/ros2_ws/src/controle_audio/build/controle_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/controle_audio build --build-base /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build install --record /home/natan/ros2_ws/src/controle_audio/build/controle_audio/install.log --single-version-externally-managed install_data
+[0.698s] running egg_info
+[0.698s] creating build/controle_audio/controle_audio.egg-info
+[0.710s] writing build/controle_audio/controle_audio.egg-info/PKG-INFO
+[0.710s] writing dependency_links to build/controle_audio/controle_audio.egg-info/dependency_links.txt
+[0.710s] writing entry points to build/controle_audio/controle_audio.egg-info/entry_points.txt
+[0.711s] writing requirements to build/controle_audio/controle_audio.egg-info/requires.txt
+[0.711s] writing top-level names to build/controle_audio/controle_audio.egg-info/top_level.txt
+[0.711s] writing manifest file 'build/controle_audio/controle_audio.egg-info/SOURCES.txt'
+[0.733s] reading manifest file 'build/controle_audio/controle_audio.egg-info/SOURCES.txt'
+[0.734s] writing manifest file 'build/controle_audio/controle_audio.egg-info/SOURCES.txt'
+[0.734s] running build
+[0.734s] running build_py
+[0.734s] creating /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build
+[0.734s] creating /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build/lib
+[0.735s] creating /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build/lib/controle_audio
+[0.735s] copying controle_audio/listening_control.py -> /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build/lib/controle_audio
+[0.735s] copying controle_audio/__init__.py -> /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build/lib/controle_audio
+[0.735s] running install
+[0.738s] running install_lib
+[0.750s] creating /home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages/controle_audio
+[0.750s] copying /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build/lib/controle_audio/listening_control.py -> /home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages/controle_audio
+[0.750s] copying /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build/lib/controle_audio/__init__.py -> /home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages/controle_audio
+[0.750s] byte-compiling /home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages/controle_audio/listening_control.py to listening_control.cpython-312.pyc
+[0.751s] byte-compiling /home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages/controle_audio/__init__.py to __init__.cpython-312.pyc
+[0.751s] running install_data
+[0.751s] creating /home/natan/ros2_ws/src/controle_audio/install/controle_audio/share/ament_index
+[0.751s] creating /home/natan/ros2_ws/src/controle_audio/install/controle_audio/share/ament_index/resource_index
+[0.751s] creating /home/natan/ros2_ws/src/controle_audio/install/controle_audio/share/ament_index/resource_index/packages
+[0.751s] copying resource/controle_audio -> /home/natan/ros2_ws/src/controle_audio/install/controle_audio/share/ament_index/resource_index/packages
+[0.751s] copying package.xml -> /home/natan/ros2_ws/src/controle_audio/install/controle_audio/share/controle_audio
+[0.751s] running install_egg_info
+[0.763s] Copying build/controle_audio/controle_audio.egg-info to /home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages/controle_audio-0.0.0-py3.12.egg-info
+[0.763s] running install_scripts
+[0.842s] Installing listening_control script to /home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/controle_audio
+[0.842s] writing list of installed files to '/home/natan/ros2_ws/src/controle_audio/build/controle_audio/install.log'
+[0.862s] Invoked command in '/home/natan/ros2_ws/src/controle_audio' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/natan/ros2_ws/src/controle_audio/build/controle_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/natan/ros2_ws/src/controle_audio/install/controle_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/controle_audio build --build-base /home/natan/ros2_ws/src/controle_audio/build/controle_audio/build install --record /home/natan/ros2_ws/src/controle_audio/build/controle_audio/install.log --single-version-externally-managed install_data
