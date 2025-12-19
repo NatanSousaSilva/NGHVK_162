@@ -14,7 +14,6 @@ find_package(std_msgs REQUIRED)
 find_package(nlohmann_json REQUIRED)
 find_package(CURL REQUIRED)
 
-# Inclui diretórios do projeto
 include_directories(
     include
 )

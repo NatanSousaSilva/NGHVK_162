@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: controle-audio
-Version: 0.0.0
-Summary: Nó ROS2 usando Vosk para reconhecimento de fala
-Maintainer: natan
-Maintainer-email: natanssousassiva@gmail.com
-License: Apache-2.0
-Provides-Extra: test
