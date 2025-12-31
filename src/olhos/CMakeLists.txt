@@ -14,25 +14,25 @@ find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 
-add_executable(olhos_node src/olhos_node.cpp)
+add_executable(olhos src/olhos_node.cpp)
 
-ament_target_dependencies(olhos_node
+ament_target_dependencies(olhos
   rclcpp
   std_msgs
   sensor_msgs
   cv_bridge
 )
 
-target_link_libraries(olhos_node
+target_link_libraries(olhos
   ${OpenCV_LIBS}
 )
 
-target_include_directories(olhos_node PUBLIC
+target_include_directories(olhos PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
 )
 
-install(TARGETS olhos_node
+install(TARGETS olhos
   DESTINATION lib/${PROJECT_NAME}
 )
 

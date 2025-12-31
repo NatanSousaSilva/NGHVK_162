@@ -1,2 +1,0 @@
-[console_scripts]
-listening_control = controle_audio.listening_control:main

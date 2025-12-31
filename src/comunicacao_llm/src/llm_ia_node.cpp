@@ -11,30 +11,30 @@ class Llm_Node : public rclcpp::Node {
 public:
     Llm_Node() : Node("llm_ia_node") {
 
-        publisher_ = this->create_publisher<std_msgs::msg::String>("llm_resposta", 10);
+        pub_ = this->create_publisher<std_msgs::msg::String>("llm/cerebro", 10);
 
-        subscription_ = this->create_subscription<std_msgs::msg::String>(
-            "llm_pergunta", 10,
-            std::bind(&Llm_Node::subscription_callback, this, std::placeholders::_1)
+        sub_cer_ = this->create_subscription<std_msgs::msg::String>(
+            "cerebro/llm", 10,
+            std::bind(&Llm_Node::callback_cerebro, this, std::placeholders::_1)
         );
 
         RCLCPP_INFO(this->get_logger(), "Nó llm inicializado com sucesso.");
     }
 
 private:
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_cer_;
 
     static size_t write_callback(void *contents, size_t size, size_t nmemb, std::string *output) {
         output->append((char *)contents, size * nmemb);
         return size * nmemb;
     }
 
-    void subscription_callback(const std_msgs::msg::String::SharedPtr msg) {
+    void callback_cerebro(const std_msgs::msg::String::SharedPtr msg) {
         query_llm(msg->data);
     }
 
-    // Método principal 
+  
     void query_llm(const std::string &prompt) {
         CURL *curl = curl_easy_init();
         if (!curl) {
@@ -88,7 +88,7 @@ private:
 
             std_msgs::msg::String msg;
             msg.data = text;
-            publisher_->publish(msg);
+            pub_->publish(msg);
 
             RCLCPP_INFO(this->get_logger(), "Publicado: '%s'", text.c_str());
 

@@ -10,19 +10,19 @@ find_package(std_msgs REQUIRED)
 
 find_package(CURL REQUIRED)
 
-add_executable(boca_node src/boca_node.cpp)
+add_executable(boca src/boca_node.cpp)
 
-ament_target_dependencies(boca_node
+ament_target_dependencies(boca
   rclcpp
   std_msgs
 )
 
-target_link_libraries(boca_node
+target_link_libraries(boca
   CURL::libcurl
 )
 
 install(TARGETS
-  boca_node
+  boca
   DESTINATION lib/${PROJECT_NAME}
 )
 

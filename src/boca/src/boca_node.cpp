@@ -11,8 +11,8 @@ public:
         pasta = std::string(std::getenv("HOME")) + "/audio";
         std::filesystem::create_directories(pasta);
 
-        subscription_ = this->create_subscription<std_msgs::msg::String>(
-            "audio", 10,
+        sub_cer_ = this->create_subscription<std_msgs::msg::String>(
+            "cerebro/boca", 10,
             std::bind(&Boca_Node::callback, this, std::placeholders::_1)
         );
 
@@ -20,7 +20,7 @@ public:
     }
 
 private:
-    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_cer_;
 
     std::string pasta;
 
