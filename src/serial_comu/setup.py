@@ -15,15 +15,11 @@ setup(
     zip_safe=True,
     maintainer='natan',
     maintainer_email='natanssousassiva@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
-    extras_require={
-        'test': [
-            'pytest',
-        ],
-    },
+    description='Serial communication node',
+    license='TODO',
     entry_points={
         'console_scripts': [
+            'serial_sender = serial_comu.serial_node:main'
         ],
     },
 )

@@ -9,7 +9,7 @@ public:
 
         // publishers
         pub_llm_ = this->create_publisher<std_msgs::msg::String>("cerebro/llm", 10);
-        pub_des_ = this->create_publisher<std_msgs::msg::String>("cerebro/destino", 10);
+        pub_des_ = this->create_publisher<std_msgs::msg::String>("cerebro/localizacao", 10);
         pub_boc_ = this->create_publisher<std_msgs::msg::String>("cerebro/boca", 10);
         pub_olh_ = this->create_publisher<std_msgs::msg::String>("cerebro/olhos", 10);
 
@@ -53,14 +53,14 @@ private:
 
         if (msg_str_.empty())return;
 
-        RCLCPP_INFO(this->get_logger(), "Recebi LLM: %s", msg_str_);
+        RCLCPP_INFO(this->get_logger(), "Recebi LLM: %s", msg_str_.c_str());
 
         if (msg_str_.find("l0-?") != std::string::npos) {
 
             std::string msgs = msg_str_.substr(4);
 
             if (msgs != "nao") {
-                RCLCPP_INFO(this->get_logger(), "Local encontrado: %s", msgs);
+                RCLCPP_INFO(this->get_logger(), "Local encontrado: %s", msgs.c_str());
             }
         }
 

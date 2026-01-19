@@ -17,6 +17,8 @@ using namespace cv;
 class Olhos_Node : public rclcpp::Node {
 public:
     Olhos_Node() : Node("olhos_node") {
+        this->declare_parameter<int>("camera", 0);
+        this->get_parameter("camera", camera);
 
         if (!face_cascade.load(
             "/usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml"))
@@ -26,16 +28,17 @@ public:
 
         ///////
 
-        cap.open(2);
+        cap.open(camera);
         if (!cap.isOpened()) {
             RCLCPP_ERROR(this->get_logger(), "Erro ao abrir câmera!");
         }
 
         ///////
 
+        pub_ser_ = this->create_publisher<std_msgs::msg::String>("olhos/serial", 10);
         pub_pes_ = this->create_publisher<std_msgs::msg::String>("olhos/pescoco", 10);
-        pub_mem_ = this->create_publisher<sensor_msgs::msg::Image>("olhos/memoria", 10);
-        pub2_mem_ = this->create_publisher<std_msgs::msg::String>("olhos/2/memoria", 10);
+        pub1_mem_ = this->create_publisher<sensor_msgs::msg::Image>("olhos/o1/memoria", 10);
+        pub2_mem_ = this->create_publisher<std_msgs::msg::String>("olhos/o2/memoria", 10);
 
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(33),
@@ -50,14 +53,14 @@ public:
     }
 
 private:
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_ser_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_pes_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub2_mem_;
-    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr pub_mem_;
+    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr pub1_mem_;
 
     rclcpp::TimerBase::SharedPtr timer_;
 
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_cer_;
-
     ///////
 
     CascadeClassifier face_cascade;
@@ -70,6 +73,7 @@ private:
     std_msgs::msg::String msg_cen_; // variavel offset centralização
     std_msgs::msg::String msg_cad_; // variavel nome da pessoa a ser cadastrada
 
+    int camera;
     ///////
 
 
@@ -123,7 +127,7 @@ private:
                     msg_fac.encoding = "bgr8";
                     msg_fac.image = frame(maior).clone();
 
-                    pub_mem_->publish(*msg_fac.toImageMsg());
+                    pub1_mem_->publish(*msg_fac.toImageMsg());
                     pub2_mem_->publish(msg_cad_);
 
                     msg_cad_.data = "";

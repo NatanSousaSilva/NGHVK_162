@@ -13,7 +13,7 @@ public:
 
         sub_cer_ = this->create_subscription<std_msgs::msg::String>(
             "cerebro/boca", 10,
-            std::bind(&Boca_Node::callback, this, std::placeholders::_1)
+            std::bind(&Boca_Node::callback_audio, this, std::placeholders::_1)
         );
 
         RCLCPP_INFO(this->get_logger(), "Nó Boca iniciado.");
@@ -30,7 +30,7 @@ private:
         return size * nmemb;
     }
 
-    void callback(const std_msgs::msg::String::SharedPtr msg) {
+    void callback_audio(const std_msgs::msg::String::SharedPtr msg) {
         std::string arquivo = pasta + "/audio_" +std::to_string(std::time(nullptr)) + ".wav";
 
         std::ofstream file(arquivo, std::ios::binary);

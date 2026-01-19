@@ -15,6 +15,8 @@ setup(
         'setuptools',
         'vosk',
         'sounddevice',
+        'rapidfuzz',
+        'pyyaml',
     ],
     zip_safe=True,
     maintainer='natan',
