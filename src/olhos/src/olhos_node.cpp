@@ -40,10 +40,14 @@ public:
         pub1_mem_ = this->create_publisher<sensor_msgs::msg::Image>("olhos/o1/memoria", 10);
         pub2_mem_ = this->create_publisher<std_msgs::msg::String>("olhos/o2/memoria", 10);
 
+        ///////
+
         timer_ = this->create_wall_timer(
             std::chrono::milliseconds(33),
             std::bind(&Olhos_Node::processar_frame, this)
         );
+
+        ////////
 
         sub_cer_ = this->create_subscription<std_msgs::msg::String>(
             "cerebro/olhos", 10,
@@ -61,6 +65,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
 
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_cer_;
+
     ///////
 
     CascadeClassifier face_cascade;
@@ -74,6 +79,7 @@ private:
     std_msgs::msg::String msg_cad_; // variavel nome da pessoa a ser cadastrada
 
     int camera;
+
     ///////
 
 
@@ -137,8 +143,7 @@ private:
     }
 };
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv){
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_shared<Olhos_Node>());
     rclcpp::shutdown();

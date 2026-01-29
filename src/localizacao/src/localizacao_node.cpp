@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+#include <vector>
 
 class Localizacao_Node : public rclcpp::Node {
 public:
@@ -19,11 +20,14 @@ public:
     }
 
 private:
+
+    // no codigo do serial mandar para ca so a posição do gps e se tem ou nao coisa 
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_cer_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_ser_;
 
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_cer_;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_ser_;
+    ////////
 
     void callback_cerebro(const std_msgs::msg::String::SharedPtr msg) {
         RCLCPP_INFO(this->get_logger(), "%s", msg->data.c_str());
