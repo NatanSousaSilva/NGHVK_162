@@ -5,7 +5,7 @@ from std_msgs.msg import String
 import sounddevice as sd
 import json
 from vosk import Model, KaldiRecognizer
-from rapidfuzz import process, fuzz
+#from rapidfuzz import process, fuzz
 
 import os
 

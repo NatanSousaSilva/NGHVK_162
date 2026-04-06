@@ -12,6 +12,7 @@ public:
         pub_des_ = this->create_publisher<std_msgs::msg::String>("cerebro/localizacao", 10);
         pub_boc_ = this->create_publisher<std_msgs::msg::String>("cerebro/boca", 10);
         pub_olh_ = this->create_publisher<std_msgs::msg::String>("cerebro/olhos", 10);
+	pub_map_ = this->create_publisher<std_msgs::msg::String>("cerebro/mapeamento", 10);
 
         // subscriptions
         sub_llm_ = this->create_subscription<std_msgs::msg::String>(
@@ -23,6 +24,11 @@ public:
             "ouvido/cerebro", 10,
             std::bind(&Cerebro_Node::callback_ouvido, this, std::placeholders::_1)
         );
+
+	sub_map_ = this->create_subscription<std_msgs::msg::String>(
+	    "mapeamento/cerebro", 10,
+            std::bind(&Cerebro_Node::callback_ouvido, this, std::placegolders::_1)
+	);
 
         /*
         sub_olh_ = this->create_subscription<sensor_msgs::msg::Image>(
@@ -40,10 +46,12 @@ private:
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_des_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_boc_;
     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_olh_;
-
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_map_;
     // subscriptions
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_llm_;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_ouv_;
+    rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_map_;
+
     // rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr sub_olh_;
 
    //--------
@@ -86,8 +94,6 @@ private:
             msg.data = msg_llm_->data;
             pub_boc_->publish(msg);
         }
-
-
 
     }
 

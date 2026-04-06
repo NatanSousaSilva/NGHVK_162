@@ -6,7 +6,7 @@ public:
     CameraTesteNode() : Node("camera_teste_node") {
 
         // Abre a câmera (0 = padrão)
-        cap.open(0);
+        cap.open(2);
 
         if (!cap.isOpened()) {
             RCLCPP_ERROR(this->get_logger(), "Erro ao abrir a camera");
